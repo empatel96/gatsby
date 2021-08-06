@@ -6,5 +6,11 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ['gatsby-plugin-typescript', 'gatsby-plugin-sass'],
+  plugins: [],
+  siteMetadata: {
+    title: 'Website',
+    description: 'Web dev portfolio',
+    copyright: 'This website is copyright 2021 - Muhammed Patel',
+    author: 'Muhammed Patel',
+  },
 };
