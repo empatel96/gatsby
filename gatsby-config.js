@@ -6,9 +6,24 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
+  ],
   siteMetadata: {
-    title: 'Website',
+    title: 'Jollycube',
     description: 'Web dev portfolio',
     copyright: 'This website is copyright 2021 - Muhammed Patel',
     author: 'Muhammed Patel',
