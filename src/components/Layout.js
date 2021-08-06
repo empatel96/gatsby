@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import '../styles/global.css';
 
 export default function Layout({ children }) {
   return (
@@ -10,7 +11,9 @@ export default function Layout({ children }) {
         {/* children takes the content inside the layout component and renders it */}
         {children}
       </div>
-      <footer>Copyright 2021</footer>
+      <footer>
+        <p>Copyright 2021</p>
+      </footer>
     </div>
   );
 }
