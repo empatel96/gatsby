@@ -26,5 +26,7 @@
   "jest.autoEnable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "appService.defaultWebAppToDeploy": "/subscriptions/6a45af19-beb4-4e44-b3a4-2fc5917a44f9/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/jollycube",
+  "appService.deploySubpath": "."
 }
