@@ -2,6 +2,7 @@ import { graphql, Link } from 'gatsby';
 import React from 'react';
 import Layout from '../components/Layout';
 import styles from '../styles/home.module.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function Home({ data }) {
   // const { title, description } = data.site.siteMetadata;
@@ -16,7 +17,8 @@ export default function Home({ data }) {
             My Portfolio
           </Link>
         </div>
-        <img src="/banner.png" alt="site-banner" style={{ maxWidth: '100%' }} />
+        <StaticImage src="../images/banner.png" alt="Banner" />
+        {/* <img src="/banner.png" alt="site-banner" style={{ maxWidth: '100%' }} /> */}
       </section>
     </Layout>
   );
