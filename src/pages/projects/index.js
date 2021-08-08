@@ -14,11 +14,11 @@ export default function Projects({ data }) {
         <h3>Projects and stuff I've worked on</h3>
         <div className={styles.projects}>
           {projects.map((project) => {
-            const image = project.frontmatter.thumb.childrenImageSharp[0].gatsbyImageData;
+            const image = getImage(project.frontmatter.thumb);
             return (
               <Link to={'/projects/' + project.frontmatter.slug} key={project.id}>
                 <div>
-                  <GatsbyImage image={image} />
+                  <GatsbyImage image={image} alt={project.frontmatter.title} />
                   <h3>{project.frontmatter.title}</h3>
                   <p>{project.frontmatter.stack}</p>
                 </div>
@@ -42,8 +42,8 @@ export const query = graphql`
           stack
           title
           thumb {
-            childrenImageSharp {
-              gatsbyImageData
+            childImageSharp {
+              gatsbyImageData(width: 200, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
             }
           }
         }
