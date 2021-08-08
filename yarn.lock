@@ -6454,7 +6454,7 @@ gatsby-plugin-sass@2.1.14:
 
 gatsby-plugin-sharp@3.11.0:
   version "3.11.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.11.0.tgz"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.11.0.tgz#59d7798dcc7412d1749d40eee399b9b1e787b83b"
   integrity sha512-r1c0Mgt32Mf1nhJ1XyIFBDpYbFZMTtkMgalUmkUn+gHVG+JOoFOpa1HR0Wk5/hIRpFMcEs9JInV1nfe/p9EteQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
@@ -6675,7 +6675,7 @@ gatsby-transformer-remark@4.8.0:
 
 gatsby-transformer-sharp@3.11.0:
   version "3.11.0"
-  resolved "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.11.0.tgz"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.11.0.tgz#5bac77192cfbaa3cdadf7aacdbb78a4bcad87ea0"
   integrity sha512-JOEyfYTqoUXOUAxxcFBQF40U5OoHVk6ZZQT2Ij8Zh6GPNEosdIoT4GGI5BlDbio4L2duiG/Gx71AdXHuPjFZww==
   dependencies:
     "@babel/runtime" "^7.14.6"
