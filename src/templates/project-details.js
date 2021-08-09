@@ -10,8 +10,8 @@ export default function ProjectDetails({ data }) {
   return (
     <Layout>
       <div className={styles.details}>
-        <h2>title</h2>
-        <h3>stack</h3>
+        <h2>{title}</h2>
+        <h3>{stack}</h3>
         <div className={styles.featured}>
           <GatsbyImage image={getImage(featuredImg)} alt="Projects" />
         </div>

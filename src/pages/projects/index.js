@@ -11,7 +11,7 @@ export default function Projects({ data }) {
     <Layout>
       <div className={styles.portfolio}>
         <h2>Portfolio</h2>
-        <h3>Projects and stuff I've worked on</h3>
+        <h3>Projects and stuff I've worked on*</h3>
         <div className={styles.projects}>
           {projects.map((project) => {
             const image = getImage(project.frontmatter.thumb);
@@ -27,6 +27,7 @@ export default function Projects({ data }) {
           })}
         </div>
         <p>Like what you see? Email me {contact}</p>
+        <small>*This isn't my actual portfolio</small>
       </div>
     </Layout>
   );
