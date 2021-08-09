@@ -26,7 +26,7 @@ export default function Projects({ data }) {
             );
           })}
         </div>
-        <p>Like what you see? Email me at: {contact}</p>
+        <p>Like what you see? Email me {contact}</p>
       </div>
     </Layout>
   );

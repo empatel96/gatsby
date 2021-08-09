@@ -12,7 +12,7 @@ body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146, 43, 225, 1) 0%, rgba(43, 9, 107, 1) 100%);
+  background: radial-gradient(at top left, rgb(70, 164, 226) 0%, rgba(43, 9, 107, 1) 100%);
   background-repeat: no-repeat;
 }
 p {

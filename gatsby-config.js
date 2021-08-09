@@ -38,6 +38,6 @@ module.exports = {
     description: 'Web dev portfolio',
     copyright: 'This website is copyright 2021 - Muhammed Patel',
     author: 'Muhammed Patel',
-    contact: 'emmpii8@gmail.com',
+    contact: 'empatel96@gmail.com',
   },
 };
